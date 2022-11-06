@@ -55,8 +55,8 @@ Config.Locations = {
     },
     ["stations"] = {
         [1] = {label = "Sheriff", coords = vector3(1360.88, -1301.53, 77.77)}, -- Rhodes
-        [2] = {label = "Sheriff HQ", coords = vector3(2501.83, -1309.04, 48.95)}, -- Saint Denis
-        [3] = {label = "Sheriff", coords = vector3(-760.47, -1269.14, 44.04)}, -- Blackwater
+        [2] = {label = "Marshal HQ", coords = vector3(2501.83, -1309.04, 48.95)}, -- Saint Denis
+        [3] = {label = "Marshal Field Office", coords = vector3(-760.47, -1269.14, 44.04)}, -- Blackwater
         [4] = {label = "Sheriff", coords = vector3(-1810.57, -350.91, 164.66)}, -- Strawberry
         [5] = {label = "Sheriff", coords = vector3(-275.65, 808.62, 119.38)}, --valentine
     },
@@ -73,14 +73,6 @@ Config.AuthorizedVehicles = {
 	},
 	-- Grade 2
 	[2] = {
-		["policewagon01x"] = "Police Vagon",
-	},
-	-- Grade 3
-	[3] = {
-		["policewagon01x"] = "Police Vagon",
-	},
-	-- Grade 4
-	[4] = {
 		["policewagon01x"] = "Police Vagon",
 	}
 }
@@ -103,7 +95,7 @@ Config.Items = {
             },
             type = "weapon",
             slot = 1,
-            authorizedJobGrades = {0, 1, 2, 3, 4}
+            authorizedJobGrades = {0, 1, 2}
         },
         {
             name = "weapon_repeater_winchester",
@@ -114,7 +106,7 @@ Config.Items = {
             },
             type = "weapon",
             slot = 2,
-            authorizedJobGrades = {0, 1, 2, 3, 4}
+            authorizedJobGrades = {0, 1, 2}
         },
         {
             name = "weapon_melee_lantern",
@@ -123,7 +115,7 @@ Config.Items = {
             info = {},
             type = "weapon",
             slot = 3,
-            authorizedJobGrades = {0, 1, 2, 3, 4}
+            authorizedJobGrades = {0, 1, 2}
         },
         {
             name = "weapon_lasso",
@@ -132,7 +124,7 @@ Config.Items = {
             info = {},
             type = "item",
             slot = 4,
-            authorizedJobGrades = {0, 1, 2, 3, 4}
+            authorizedJobGrades = {0, 1, 2}
         },
         {
             name = "ammo_revolver",
@@ -141,7 +133,7 @@ Config.Items = {
             info = {},
             type = "item",
             slot = 5,
-            authorizedJobGrades = {0, 1, 2, 3, 4}
+            authorizedJobGrades = {0, 1, 2}
         },
         {
             name = "ammo_repeater",
@@ -150,7 +142,7 @@ Config.Items = {
             info = {},
             type = "item",
             slot = 6,
-            authorizedJobGrades = {0, 1, 2, 3, 4}
+            authorizedJobGrades = {0, 1, 2}
         },
     }
 }
