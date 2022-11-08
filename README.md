@@ -31,3 +31,16 @@ This is a conversion of QR-Policejob
 
 5. Save the edited `jobs.lua` 
 6. Restart your server!
+
+# Ranger Commands
+/rpobject
+/rcuff
+/rescort
+/rcallsign
+/rclearcasings
+/rjail
+/runjail
+/rclearblood
+/rseizecash
+/rsc
+/rtakedna
